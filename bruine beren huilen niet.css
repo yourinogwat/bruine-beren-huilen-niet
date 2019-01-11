@@ -2,13 +2,16 @@ body{
 	background-color: #f3f3f3;
 	padding:0;
 	margin:0;
+	padding-left:16.66%;
+	padding-right:16.66%;
+	font-family:"Courier new";
 }
 
 .page {
-	margin: 40px auto;
+	margin:40px auto;
 	border: 2px solid black;
 	border-radius: 15px;
-	background-color: white;
+	background-color: #C9A281;
 	overflow: hidden;
 }
 
@@ -17,24 +20,26 @@ body{
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-position:center -60px;
-	padding: 100px 20px 0px 20px;
+	padding: 100px 20px 120px 20px;
+	
 }
 
 .main-nav a{
 	display:inline-block;
-	border-radius: 5px 0px 0px 0px;
+	border-radius: 5px 5px 0px 0px;
 	border-bottom: 10px solid white;
 	background-color:rgba(255, 255, 255, 0.64);
 	color:black;
+	border: 1px solid black;
 	text-decoration:none;
 	padding: 5px 10px;
 	position:relative;
-	top:-10px;
+	top:120px;
 	transition: top 300ms ease;
 }
 
 .main-nav a:hover{
-	top:5px;
+	top:110px;
 }
 
 .page-content{
@@ -43,7 +48,7 @@ body{
 
 h1{
 	background-color: #b68052;
-	margin: 20px;
+	margin: -20px;
 	padding: 10px 20px;
 	color: aliceblue;
 }
@@ -51,17 +56,22 @@ h1{
 h2{
   font-family:Georgia;
 }
-
+.top-nav a{
+	text-decoration:none;
+}
 .top-nav ul{
 	list-style-type:none;
 }
 
 .top-nav ul li{
 	transition: all 300ms ease;
-	left:0px;
+	left:-40px;
 	position:relative;
 }
 
 .top-nav ul li:hover{
-	left: 4px;
+	left: -30px;
+}
+.video{
+	margin: 0px -20px 0px -20px
 }
